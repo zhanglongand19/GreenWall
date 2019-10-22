@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlayout_video_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlayout_video_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@drawable/car_bg_and"
+        >
+        <com.example.greenwall.find.MyJzvdStd
+            android:id="@+id/jz_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/img_empty_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+        <Button
+            android:id="@+id/btn_start_wey_video"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/iv_title"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="248dp"
+            android:background="@drawable/car_icon_play_normal"/>
+
+
+        <Button
+            android:id="@+id/btn_open_wey_travel"
+            android:layout_width="218dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_start_wey_video"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btn_bg_open_white"
+            android:text="开启vv5之旅"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@drawable/btn_text_white_color"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="81.5dp"
+            android:src="@drawable/car_font_vv5_normal"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

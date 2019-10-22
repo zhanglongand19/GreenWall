@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/main_bottom_find_lnl"
+            style="@style/TabLinearStyle">
+
+            <ImageView
+                android:id="@+id/main_bottom_find_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab_i_find_and" />
+
+            <TextView
+                android:id="@+id/main_bottom_find_tv"
+                style="@style/TabTextStyle"
+                android:text="@string/moudle_main_find"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_bottom_shop_lnl"
+            style="@style/TabLinearStyle">
+
+            <ImageView
+                android:id="@+id/main_bottom_shop_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tabbar_i_shop" />
+
+            <TextView
+                android:id="@+id/main_bottom_shop_tv"
+                style="@style/TabTextStyle"
+                android:text="@string/moudle_main_shop"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_bottom_wey_lnl"
+            style="@style/TabLinearStyle">
+
+            <ImageView
+                android:id="@+id/main_bottom_wey_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tabbar_i_car_and" />
+
+            <TextView
+                android:id="@+id/main_bottom_wey_tv"
+                style="@style/TabTextStyle"
+                android:text="@string/moudle_main_wey"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_bottom_serve_lnl"
+            style="@style/TabLinearStyle">
+
+            <ImageView
+                android:id="@+id/main_bottom_serve_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab_i_serve_and" />
+
+            <TextView
+                android:id="@+id/main_bottom_serve_tv"
+                style="@style/TabTextStyle"
+                android:text="@string/moudle_main_serve"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_bottom_mine_lnl"
+            style="@style/TabLinearStyle">
+
+            <ImageView
+                android:id="@+id/main_bottom_mine_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab_i_my_and" />
+
+            <TextView
+                android:id="@+id/main_bottom_mine_tv"
+                style="@style/TabTextStyle"
+                android:text="@string/moudle_main_mine"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

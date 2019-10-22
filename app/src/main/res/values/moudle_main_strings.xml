@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="moudle_main_wey">爱车</string>
+    <string name="moudle_main_telecontrol">控制</string>
+    <string name="moudle_main_battery">充电</string>
+    <string name="moudle_main_air_condition">舒适</string>
+    <string name="moudle_main_serve">服务</string>
+    <string name="moudle_main_find">发现</string>
+    <string name="moudle_main_mine">我的</string>
+    <string name="moudle_main_shop">商城</string>
+
+</resources>

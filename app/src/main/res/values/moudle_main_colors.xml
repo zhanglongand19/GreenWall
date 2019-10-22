@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="moudle_main_bottom_bar_bg">#F3F3F2</color>
+    <color name="moudle_main_bottom_line">#40ffffff</color>
+    <color name="moudle_main_text_select_color">#ffba9a7d</color>
+    <color name="moudle_main_text_unselect_color">#999999</color>
+
+    <!--新添加by jiangwei-->
+    <color name="moudle_main_wey_bg">#121212</color>
+    <color name="moudle_main_wey_num">#c19770</color>
+    <color name="moudle_main_wey_num_desc">#33ffffff</color><!--20不透明-->
+    <color name="moudle_main_wey_text_1">#80ffffff</color><!--50不透明-->
+
+</resources>
+

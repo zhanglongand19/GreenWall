@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:descendantFocusability="afterDescendants">
+
+    <FrameLayout
+        android:id="@+id/surface_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/car_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:scaleType="fitCenter" />
+
+    <ProgressBar
+        android:id="@+id/car_loading"
+        android:layout_width="@dimen/jz_start_button_w_h_normal"
+        android:layout_height="@dimen/jz_start_button_w_h_normal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDrawable="@drawable/jz_loading"
+        android:visibility="invisible" />
+
+
+
+</RelativeLayout>
